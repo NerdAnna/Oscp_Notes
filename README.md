@@ -1,3 +1,0 @@
-# Oscp
-Notes For OSCP
-
